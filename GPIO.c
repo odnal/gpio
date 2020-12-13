@@ -12,7 +12,7 @@ int main (int argc, char **argv) {
     scanf("%s", pin);
     char gpio_folder[7];
     sprintf(gpio_folder, "gpio%s", pin);
-    printf("%s\n", gpio_folder); 
+    printf("(%s)\n", gpio_folder); 
 
     printf("\nEnter gpio direction function: ");
     scanf("%s", dir);
