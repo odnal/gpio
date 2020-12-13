@@ -6,7 +6,6 @@
 #include <stdlib.h>
 
 #define GPIO_PATH "/sys/class/gpio/"
-//char full_path[100];
 
 // get gpio number and open full file path
 char *get_gpio_pin(char *gpio_folder) {
